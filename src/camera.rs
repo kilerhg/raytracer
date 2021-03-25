@@ -9,6 +9,7 @@ pub struct Camera {
     pub width: usize,
     pub height: usize,
 }
+// Arruma aqui ruim >>>
 
 impl Camera {
     pub fn new(position: Vec3, direction: Vec3, width: usize, height: usize) -> Self {
